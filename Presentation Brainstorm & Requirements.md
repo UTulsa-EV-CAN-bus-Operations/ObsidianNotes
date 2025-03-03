@@ -1,0 +1,36 @@
+- Need a PDF or PowerPoint of slides
+-  15 minute presentation
+- Slides must include the following:
+	- Name of Project (5pts):
+		- Ford F150 Lightning Battery Tool
+	- Name of Team Members (5pts):
+		- Kianna Jansma
+		- Asher Rosen
+		- Sam Schulman
+		- Connor Williams
+	- Vision of Project & Requirements/Goals (10pts):
+		- Create an open source HMI that allows users to control/operate/monitor the battery and use it for alternative purposes
+	- Design/Architecture of the project (15pts):
+		- We'll probably want a diagram that shows how the processes occur. Also need to figure out the design/architecture once we have a better picture of what we're building.
+	- Current State of Project/Outstanding Milestones/What have we done, etc. (25pts):
+		- Researched a lot about the CAN protocol
+			- Maybe show a structure of the packets we'll be working with?
+			- Brief description of how the CAN protocol works with the ECU/vehicle
+			- SavvyCAN tool usage and how it can show live changes of bits and logging of these packets to assist in reverse engineering
+		- Acquired a OBD2 EX Link adapter for use with FORScan
+			- Elaborate on the use of FORScan
+			- Mention PIds/help with reverse engineering CAN packets and mapping them to the proper events and PIds
+		- Communicated w/ Zach and Dr. Riley as we waited on workspace approval and acquisition of physical components necessary for the work station.
+		- Requirements gathering process w/ Zach to put together a design
+		- Researched CAN libraries that Python has
+			- NOTE: need to find out if these will work for us
+	- Description of Known Roadblocks/Challenges Affecting the Project (15pts):
+		- Workspace Acquisition
+		- Physical Components/Reliance on physical components
+		- Little available documentation on F150 lightning specific CAN protocol
+		- Maybe mention how newer vehicles are starting to become more difficult to mess with if this ends up being the case?
+	- Two User Stories/Outcomes from the project (25pts):
+		- User Story 1 = 
+		- User Story 2 =
+	- Brief demo of state of project or walkthrough of project if no demo (50pts):
+		- Probably no demo, we need get a better picture of the project and walkthrough the details of the process/how it'll work.
